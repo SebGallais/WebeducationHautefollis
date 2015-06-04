@@ -1,0 +1,148 @@
+body{
+    background-color: #fff;
+}
+
+
+
+table
+{
+    border-radius:10%;
+    border-collapse:collapse;
+    width: 99%;
+    margin-top : 15px
+  
+    
+}
+td
+{
+    font-size:large;
+}
+tr
+{
+   width: 100%;
+}
+
+td.case1{
+    width : 30px;
+}
+
+.tableau1 .case2{
+    
+ font-size:xx-large;
+ width:100%;
+ color:#186c9f;
+
+}
+
+
+.tableau2 .ligne1 .case1{ 
+width:1.8%  
+}
+
+.tableau2 .ligne1 .case2{
+    
+/* border-right: 1px solid black; */
+width:5%;
+background-color:#22539f;
+text-align:center;
+
+}
+
+
+.tableau2 .ligne1 .case2 a{
+    
+text-decoration:none ;
+color:#000;
+font-size:xx-large
+
+    
+    
+}
+.tableau2 .ligne1 .case3{       // case nom du dossier   
+
+width:75%;
+background-color:#22539f;
+text-align:left;
+font-size: 120%
+
+}
+
+.tableau2 .ligne1 .case4{      // case taille
+
+width:12%;
+text-align:center;
+background-color:#22539f   
+
+
+}
+
+.tableau2 .ligne1 .case5{     // case derniere modif
+    
+//border: 1px solid black;
+width: 10%;
+text-align:center;
+background-color:#22539f
+    
+
+}
+
+.tableau2 .ligne2 .case1{
+/*    border-left: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;*/
+    text-align:center;
+    height: 45px;
+}       
+        
+.tableau2 .ligne2 .case2{
+/*    border: 1px solid black;*/
+    border-left: none;
+    padding-left : -30px;
+    height:45px;
+}    
+
+.tableau2 .ligne3 .case1{
+   height:45px;
+   text-align:center;
+   //padding-top : 10px;
+  
+} 
+
+.tableau2 .ligne3 .case1 a{
+  text-decoration:none;
+  font-size:xx-large     
+  
+}   
+        
+ 
+.tableau2 .ligne3 .case2{
+/*border-left: 1px solid black;
+border-top: 1px solid black;
+border-bottom: 1px solid black;*/
+height:45px;
+text-align:center;
+
+}
+
+.tableau2 .ligne3 .case3{
+    
+/*border: 1px solid black;*/
+border-left: none;
+
+}
+
+.tableau2 .ligne3 .case4{
+/*border: 1px solid black;*/
+text-align:center;
+
+}
+
+
+
+.blueline{
+    background: #d2ecf9;
+    position : absolute;
+    top : 0px;
+    height : 7px;
+    width : 100%;
+}

@@ -1,0 +1,56 @@
+
+.TabAuthentification{
+    
+height:30%;
+width:30%;
+background-color:blue;
+text-align:center;
+margin-left:35%;
+margin-top:15%;
+
+}
+
+table{
+    
+ margin-left:auto;
+ margin-right:auto    
+      
+}
+
+.titleMatiere{    
+width:100%;
+text-align: center;
+font-size: 120%;
+font-family: arial;
+color:grey
+     
+}
+
+h1{
+    
+
+
+}
+
+
+
+td{
+     
+text-align: center;    
+      
+}
+tr{
+     
+text-align: center;    
+      
+}
+
+.titleNote{
+    
+ 
+background-color:#eaeaea; 
+width:100%;
+height : 50px;  
+text-align: center ;
+font-size:xx-large    
+}

@@ -1,0 +1,141 @@
+#img_page,
+#search,
+#menu,
+#footer,
+#share,
+#top-link,
+#bloc_left { display: none; }
+
+
+/************************ DEBUT DU CLEAR **********************/
+html, body, div, span, applet, object, iframe, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, 
+a, abbr, acronym, address, big, cite, code, 
+del, dfn, em, font, img, ins, kbd, q, s, samp, 
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+body { line-height: 1; }
+ol, ul { list-style: none; }
+blockquote, q { quotes: none; }
+
+.clear { clear:both; }
+
+/* remember to define focus styles! */
+:focus { outline: 0; }
+
+/* remember to highlight inserts somehow! */
+ins { text-decoration: none; }
+del { text-decoration: line-through; }
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/************************ FIN DU CLEAR - DEBUT RTE **********************/
+
+
+
+body {
+	background-color: #fff;
+	padding: 5px;	
+	color: black; 
+	font-family: Arial,Verdana,sans-serif;
+	font-size:12px; 
+}	
+
+a {  text-decoration: none; color: #22539F; }
+
+#header { margin-top: 12px; height: 125px; }
+
+#header img { float:left; margin-right: 100px; }
+#header #title { float:left; margin-top: 20px;  width: 400px; font-size: 30px; font-family: Tahoma; color: #01509b; }
+
+
+#bloc_all #breadcrumb,
+#bloc_center #breadcrumb { clear:both; color: black; font-size: 12px; margin-bottom: 20px; }
+#bloc_all #breadcrumb span,
+#bloc_center #breadcrumb span { margin: 0 6px; color: #bdbdbd }
+#bloc_all #breadcrumb a,
+#bloc_center #breadcrumb a { color: black;  }
+
+#bloc_all .element h2,
+#bloc_center .element h2 { font-size: 20px; color: #22539f; margin-left: 20px; margin-bottom: 10px;  }
+
+h3 { 
+	font-weight: bold;
+	font-size: 18px;
+	color: #22539F;
+	margin: 3px 8px 8px 8px;
+}
+
+h4 { 
+	font-weight: bold;
+	font-size: 16px;
+	color: #22539F;
+	margin: 3px 8px 8px 8px;
+}
+
+h5 { 
+	font-weight: bold;
+	font-size: 14px;
+	color: #22539F;
+	margin: 3px 8px 8px 8px;
+}
+
+h6 { 
+	font-weight: bold;
+	font-size: 12px;
+	color: #22539F;
+	margin: 3px 8px 8px 8px;
+}
+
+.indent { margin-left:20px; }
+.align-left  { text-align:left; }
+.align-center  { text-align:center; }
+.align-right  {  text-align:right; }
+.align-justify  { text-align:justify; }
+
+
+ li,
+ dl,
+ dt,
+ dd,
+ span,
+ table,
+ td,
+ tr,
+ pre,
+ blocquote { 
+	margin-bottom:5px;	
+}
+ ul,
+ ol {
+	margin-bottom:10px;	
+}
+
+table { border: none; border-collapse: collapse; margin: 10px 0; }
+table caption  { display:none; }
+table thead { background-color: transparent; color:#666666; }
+table td,
+table th { padding:5px; border: 1px solid #666666; } 
+
+p { text-align:justify;  margin-bottom:5px; line-height: 1.2; }
+
+ol li {	background:none;	list-style-type: decimal;	margin-bottom:5px;	padding-left:0px;	}
+
+ul {margin-top:10px; overflow:hidden; list-style-image: url('../images/puce_bleue.png'); }
+li { margin-left:30px; }
+img { padding:8px 6px; margin: 10px 0; }
+.align-left img  { margin:0 10px 10px 0;  }
+.align-right img { margin:0 0 10px 10px;  }
+
+ hr { border: 0; margin: 10px 0px; height:1px; color: gray; background-color: gray; visibility: visible; } 

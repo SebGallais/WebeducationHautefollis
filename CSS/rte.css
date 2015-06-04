@@ -1,0 +1,76 @@
+/******************** CONFIG RTE **********************/
+
+
+.texteRTE { 	color: black;  }
+
+.texteRTE h3 { 
+	font-weight: bold;
+	font-size: 18px;
+	color: #22539F;
+	margin: 3px 8px 8px 8px;
+}
+
+.texteRTE h4 { 
+	font-weight: bold;
+	font-size: 16px;
+	color: #22539F;
+	margin: 3px 8px 8px 8px;
+}
+.texteRTE a {  text-decoration: none; color: #22539F; }
+
+.texteRTE h5 { 
+	font-weight: bold;
+	font-size: 14px;
+	color: #22539F;
+	margin: 3px 8px 8px 8px;
+}
+
+.texteRTE h6 { 
+	font-weight: bold;
+	font-size: 12px;
+	color: #22539F;
+	margin: 3px 8px 8px 8px;
+}
+
+.texteRTE .indent { margin-left:20px; }
+.texteRTE .align-left  { text-align:left; }
+.texteRTE .align-center  { text-align:center; }
+.texteRTE .align-right  {  text-align:right; }
+.texteRTE .align-justify  { text-align:justify; }
+
+
+.texteRTE  li,
+.texteRTE  dl,
+.texteRTE  dt,
+.texteRTE  dd,
+.texteRTE  span,
+.texteRTE  table,
+.texteRTE  td,
+.texteRTE  tr,
+.texteRTE  pre,
+.texteRTE  blocquote { 
+	margin-bottom:5px;	
+}
+.texteRTE  ul,
+.texteRTE  ol {
+	margin-bottom:10px;	
+}
+
+.texteRTE table { border: none; border-collapse: collapse; margin: 10px 0; }
+.texteRTE table caption  { display:none; }
+.texteRTE table thead { background-color: transparent; color:#666666; }
+.texteRTE table td,
+.texteRTE table th { padding:5px; border: 1px solid #666666; } 
+
+.texteRTE p { text-align:justify;  margin-bottom:5px; line-height: 1.2; }
+
+
+.texteRTE ol li {	background:none;	list-style-type: decimal;	margin-bottom:5px;	padding-left:0px;	}
+
+.texteRTE ul {margin-top:10px; overflow:hidden; list-style-image: url('../images/puce_bleue.png'); }
+.texteRTE li { margin-left:30px; }
+.texteRTE img { padding:8px 6px; margin: 10px 0; }
+.texteRTE .align-left img  { margin:0 10px 10px 0;  }
+.texteRTE .align-right img { margin:0 0 10px 10px;  }
+
+.texteRTE  hr { border: 0; margin: 10px 0px; height:1px; color: gray; background-color: gray; visibility: visible; } 
